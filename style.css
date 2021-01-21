@@ -1,5 +1,5 @@
 body {
-  background-color: purple;
+  background-color: black;
 }
 
 h1 {
@@ -9,4 +9,8 @@ h1 {
 .heading {
   text-align: center;
   widows: 100%;
+}
+
+#soon{
+  font-size: 75px;
 }
