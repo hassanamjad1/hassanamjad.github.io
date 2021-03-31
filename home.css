@@ -1,0 +1,11 @@
+body{
+  background-color: white;
+}
+
+.portion{
+  width : 100%;
+  border: 4px dotted blue;
+}
+.menu{
+  background-color: red;
+}
