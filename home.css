@@ -3,9 +3,28 @@ body{
 }
 
 .portion{
-  width : 100%;
+  /* width : 100%; */
   border: 4px dotted blue;
 }
 .menu{
   background-color: red;
+}
+.intro{
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.left{
+  width : 50%;
+  height: 500px;
+
+  border-right: 1px solid black;
+}
+.right{
+  width : 50%;
+  height: 100%;
+  /* border: 4px dotted yellow; */
 }
