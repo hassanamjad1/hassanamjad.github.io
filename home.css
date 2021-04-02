@@ -20,9 +20,15 @@ body{
 .left{
   width : 50%;
   height: 500px;
-
+  font-smooth: never;
+  -webkit-font-smoothing : none;
   border-right: 1px solid black;
+
 }
+.blink{
+  animation: blinker 0.6s cubic-bezier(1, 0, 0, 1) infinite alternate;
+}
+@keyframes blinker { to { opacity: 0; } }
 .right{
   width : 50%;
   height: 100%;
