@@ -1,5 +1,7 @@
 body{
   background-color: white;
+  margin-right:5%;
+  margin-left:5%;
 }
 
 .portion{
@@ -35,6 +37,13 @@ body{
   /* border: 4px dotted yellow; */
 }
 
+.extra1{
+  border: 1px solid black;
+  border-radius: 25px;
+  width: 100%;
+  height : 250px;
+  background-color: #eee3fc;
+}
 
 .work{
   display: flex;
@@ -51,6 +60,7 @@ body{
   line-height: 250px;
   text-align: center;
   border: 1px solid black;
+  border-radius: 25px;
   width: 100%;
   height : 250px;
 }
