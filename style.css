@@ -17,6 +17,11 @@ svg {
     height: 400px;
     margin: 0 auto;
 }
+button {
+  width : 20px;
+  height : 10px;
+  background-color: green;
+}
 
 .text-copy {
     fill: none;
