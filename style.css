@@ -12,7 +12,8 @@ body{
 
 svg {
     display: block;
-    font: 4.75em 'Montserrat';
+    font: 4.5em 'Montserrat';
+
     width: 960px;
     height: 400px;
     margin: 0 auto;
@@ -59,4 +60,74 @@ button {
 
 @keyframes stroke-offset{
 	100% {stroke-dashoffset: -35%;}
+}
+
+
+.bodyy {
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 2px solid red; */
+  width: 100%;
+  /* flex-flow: column wrap; */
+}
+.bodyy > div{
+  /* flex-flow: column wrap; */
+
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  /* align-content:  center; */
+}
+.first{
+  /* width: 250px; */
+  color: white;
+  border: 2px solid cyan;
+  /* margin: 4px; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items:  flex-start;
+
+  background-size: 320px;
+  width :250px;
+}
+.middle{
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+  /* align-content:  center; */
+  border: 2px solid white;
+  background-size: 320px;
+  width :75%;
+  margin-right: auto ;
+  margin-right: auto ;
+}
+.middle > div{
+  /* flex-flow: column wrap; */
+
+   margin: 0.5%;
+   width: 320px;
+   text-align: center;
+   /* line-height: 75px; */
+   font-size: 30px;
+   line-height: 320px;
+   background-size: 320px;
+   /* display: inline-flex; */
+   /* margin-right: 2% ; */
+
+}
+.last{
+  /* width: 250px; */
+  color: lightgreen;
+  border: 2px solid cyan;
+  /* margin: 4px; */
+  display: flex;
+  flex-wrap: wrap;
+  /* line-height: 320px; */
+  /* margin-left: auto ;
+  margin-right: auto ; */
+  background-size: 320px;
+  width :150px;
 }
