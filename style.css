@@ -6,20 +6,22 @@ html, body{
 }
 
 body{
-  background-color: red;
+  background: #030300;
   font-family: Arial;
 }
 
 svg {
     display: block;
-<<<<<<< Updated upstream
-    font: 6.5em 'Montserrat';
-=======
     font: 4.5em 'Montserrat';
->>>>>>> Stashed changes
+
     width: 960px;
     height: 400px;
     margin: 0 auto;
+}
+button {
+  width : 20px;
+  height : 10px;
+  background-color: green;
 }
 
 .text-copy {
