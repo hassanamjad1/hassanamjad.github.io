@@ -12,7 +12,7 @@ html{
 
 }
 body{
-
+	
 	background-color: #231757;
 }
 section h2 h1{
@@ -142,14 +142,14 @@ button{
   text-align: center;
   height:  30px;
   width: 65px;
-
+  
 /*  background-color: blue;*/
   border-radius: 7px;
   font-size : 10px;
 	color: white;
 	font-size: 12px;
 	background-color: blueviolet;
-
+ 
 	border-color: darkorchid;
   margin: auto;
 }
@@ -196,7 +196,7 @@ input{
 	margin-top: auto;
 	margin-bottom: auto;
 */
-
+	
     width: 70%;
 }
 
@@ -211,3 +211,44 @@ input{
 .dev_var{
 	color: blueviolet;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
