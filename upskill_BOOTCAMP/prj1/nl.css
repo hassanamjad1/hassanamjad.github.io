@@ -1,0 +1,64 @@
+.body{
+
+}
+.GalleryWrapper{
+  float: left;
+  text-align: center;
+  margin-top: 20px;
+
+  margin-bottom: 40px;
+  height: 250px;
+
+}
+.paraContainer{
+  border: solid #72A0C1;
+  height: 98%;
+  width: 98%;
+  background-color: #eeeee4;
+}
+.ObjectContainer{
+  float: left;
+  width: 31%;
+  height:100%;
+  border:black solid;
+  margin:1px;
+  display: inline-block;
+
+}
+.GalleryWrapper p{
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  height: 90%;
+  font-size:1.7vw;
+
+
+
+}
+.GalleryWrapper img{
+  height: 100%;
+  width: 100%;
+}
+
+.footerWrapper{
+    text-align: center;
+}
+.footerLinks{
+list-style-type: none;
+display: inline-block;
+
+width: 90%;
+
+}
+.nav{
+  display: inline;
+  float: left;
+  width: 23%;
+}
+
+
+.footerLinks a{
+  text-align: center;
+  font-size: 19px;
+}
